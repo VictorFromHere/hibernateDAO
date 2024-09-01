@@ -30,6 +30,9 @@ public class Main {
         }
 
         System.out.println(userServiceImpl.getAllUsers());
+
+        userServiceImpl.removeUserById(2);
+
         userServiceImpl.cleanUsersTable();
         userServiceImpl.dropUsersTable();
 
